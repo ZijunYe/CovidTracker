@@ -2,5 +2,5 @@
 
 Build in Python, Beautiful Soup4, tkinter
 
-##ScreenShot Result
+## ScreenShot Result
 ![image](result.png)
