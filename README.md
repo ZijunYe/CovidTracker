@@ -8,26 +8,36 @@ Build in Python, Beautiful Soup4, tkinter
 
 
 ## How to install pip & create virtual environment? 
-   - you have two way to do 
+  you have two way to do 
+  
       1. using pyCharm --> it automatic install virtual environment and pip for you 
       2. install by self in terminal; here is steps: 
-      ```cd <folder-with-my-project> ```  # Put here the folder name 
+
+       Put here the folder name
+      ```cd <folder-with-my-project> ```   
       
-       ```mkdir main.py```          # Create a dedicated app directory.
+      Create a dedicated app directory
+       ```mkdir main.py```          
        
        ```cd corona-app```              
       
-      ```sudo easy_install pip``` #install pip 
+      install pip 
+      ```sudo easy_install pip``` 
       
-      ```python3 -m pip install virtualenv``` #install virtualenv 
+      install virtualenv
+      ```python3 -m pip install virtualenv```  
       
-       ```virtualenv venv```            # Create the virtual environment 'venv'
+      Create the virtual environment 'venv'
+       ```virtualenv venv```            
        
-       ```source venv/bin/activate``` #activate environment
+       Activate virtual environment
+       ```source venv/bin/activate``` 
        
+       
+       two  Package use in our project
        ```pip install requests 
           pip install beautifulsoup4```  
-          #two  module use in our project
+         
       
 
       
